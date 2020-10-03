@@ -16,5 +16,8 @@ public class Person {
 		this.surname = surname;
 	}
 	
-	
+	@Override
+	public String toString() {
+		return "Person [name=" + name + ", surname=" + surname + "]";
+	}	
 }
